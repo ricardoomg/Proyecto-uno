@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #deb887;
+  }
+  
+  header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  .title {
+    color: #e44207;
+  }
+  
+  .image-title {
+    color: #e44207;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+   
+    
+  }
+  
+  .logo a {
+    color: #F26430;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo-right {
+    display: flex;
+    align-items: right;
+  }
+  
+  .logo-right img {
+    max-height: 80px;
+    margin-left: 40px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #F26430;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #F2C1AE;
+  }
+  
+  .video-container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #eedec8;
+  }
+  
+  .content {
+    background-color: #deb887;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 40px;
+    
+  }
+  .content-text {
+    max-width: 50%;
+    text-align: left;
+    justify-content: center;
+    
+  }
+    
+  .content img {
+    width: 35%;
+    margin-left: 30px;
+  }
+  .content_text{
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #F2C1AE;
+    width: 50%; 
+    float: left;
+
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+
+
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
